@@ -1,0 +1,54 @@
+2025-10-15 16:27:37,962:INFO: ----------------- Options ---------------
+                      arc: swin_transformer_base         
+               batch_size: 64                            
+                crop_size: 224                           
+                  dataset: hybrid                        
+             dataset_path: data/Hybrid                   
+                draw_text: False                         
+                   epochs: 20                            
+                 evaluate: True                          
+                 exp_name: Test                          
+                  gpu_ids: 0                             
+                    input:                               
+                      lam: 0.001                         
+            learning_rate: 1e-05                         
+                   metric: dots                          
+             neighbor_num: 4                             
+         num_main_classes: 27                            
+          num_sub_classes: 14                            
+              num_workers: 4                             
+            optimizer_eps: 1e-08                         
+                   outdir: results\Test\bs_64_seed_0_lr_1e-05
+                   resume:                               
+                     seed: 0                             
+                    stage: 1                             
+             weight_decay: 0.0005                        
+----------------- End -------------------
+2025-10-15 16:27:37,963:INFO: writting logs to file results\Test\bs_64_seed_0_lr_1e-05\test.log
+2025-10-15 17:00:17,521:INFO: ----------------- Options ---------------
+                      arc: swin_transformer_base         
+               batch_size: 64                            
+                crop_size: 224                           
+                  dataset: hybrid                        
+             dataset_path: data/Hybrid                   
+                draw_text: False                         
+                   epochs: 20                            
+                 evaluate: True                          
+                 exp_name: Test                          
+                  gpu_ids: 0                             
+                    input:                               
+                      lam: 0.001                         
+            learning_rate: 1e-05                         
+                   metric: dots                          
+             neighbor_num: 4                             
+         num_main_classes: 27                            
+          num_sub_classes: 14                            
+              num_workers: 4                             
+            optimizer_eps: 1e-08                         
+                   outdir: results\Test\bs_64_seed_0_lr_1e-05
+                   resume:                               
+                     seed: 0                             
+                    stage: 1                             
+             weight_decay: 0.0005                        
+----------------- End -------------------
+2025-10-15 17:00:17,522:INFO: writting logs to file results\Test\bs_64_seed_0_lr_1e-05\test.log
